@@ -13,9 +13,7 @@ A simple Node.js web application using the GitHub API that allows users to retri
 To run the app locally, you will need to download the project from my github repository: https://github.com/ctopheryoung/gh-api-node-project
 
 #### NPM/Bower Install
-Once the project has been cloned onto your local machine, you will need to install the Node & Bower dependencies.
-
-On the command line, navigate to the root of the project directory and run the following commands:
+Once the project has been cloned onto your local machine, you will need to install the Node & Bower dependencies. On the command line, navigate to the root of the project directory and run the following commands:
 * npm install
 * bower install
 
