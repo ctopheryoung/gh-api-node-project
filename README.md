@@ -24,6 +24,13 @@ To create a token, visit the Settings area of your own Github account, select Pe
 
 This key will then need to be placed inside of a ".env" file at the root level of the local project directory.
 
+#### Run the Local Server
+On the command line, at the root of the project directory, run the following commands:
+* gulp build
+* gulp serve
+
+This will concatenate and compile the necessary JavaScript files and then run the local server. It should automatically open the page (located at http://localhost:3000/) in your preferred browser. 
+
 ## Technologies Used
 
 JavaScript, Node.js, Bower, Sass CSS, GitHub API
