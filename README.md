@@ -29,11 +29,11 @@ On the command line, at the root of the project directory, run the following com
 * gulp build
 * gulp serve
 
-This will concatenate and compile the necessary JavaScript files and then run the local server. It should automatically open the page (located at http://localhost:3000/) in your preferred browser. 
+This will concatenate and compile the necessary JavaScript files and then run the local server. It should automatically open the page (located at http://localhost:3000/) in your preferred browser.
 
 ## Technologies Used
 
-JavaScript, Node.js, Bower, Sass CSS, GitHub API
+JavaScript, Node.js, Bower, Gulp, Sass CSS, GitHub API
 
 ## License
 
