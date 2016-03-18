@@ -1,0 +1,22 @@
+{
+  "name": "ping-pong",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Chris Young <ctopheryoung@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ctopheryoung/ping-pong-node-js",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6"
+  }
+}
