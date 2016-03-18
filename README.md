@@ -10,17 +10,27 @@ A simple Node.js web application using the GitHub API that allows users to retri
 
 ## Set-Up Instructions
 
-In order to run the Node App, you will need a GitHub API key/personal access token.
+To run the app locally, you will need to download the project from my github repository: https://github.com/ctopheryoung/gh-api-node-project
 
-To create a token, visit the Settings area of your Github account, select Personal Access Tokens from the sidebar on the left, and click the Generate New Token button in the upper-right corner. Do not check any boxes on the next page, and click Generate Token to get your key.
+#### NPM/Bower Install
+Once the project has been cloned onto your local machine, you will need to install the Node & Bower dependencies.
 
-This key will need to be placed inside of a ".env" file at the root level of the project directory in order to run the app locally.
+On the command line, navigate to the root of the project directory and run the following commands:
+* npm install
+* bower install
+
+#### GitHub API Key
+In order to make GitHub API requests, you will need a key/personal access token.
+
+To create a token, visit the Settings area of your own Github account, select Personal Access Tokens from the sidebar on the left, and click the Generate New Token button in the upper-right corner. Do not check any boxes on the next page, and click Generate Token to get your key.
+
+This key will then need to be placed inside of a ".env" file at the root level of the local project directory.
 
 ## Technologies Used
 
 JavaScript, Node.js, Bower, Sass CSS, GitHub API
 
-### License
+## License
 
 This software is licensed under the MIT license.
 
