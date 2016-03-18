@@ -5,11 +5,15 @@
     <link rel="stylesheet" href="build/css/styles.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
-    <title>Page Title</title>
+    <title>GitHub Repos by User</title>
   </head>
   <body>
     <div class="container">
-
+      <h1>Search Public GitHub Repositories by Username</h1>
+        <label for="gh-user">GitHub User:</label>
+        <input id="gh-user" type="text">
+        <button class="button btn-success" id="gh-form-submit">Get Repos</button>
+        <div id="results"></div>
     </div>
   </body>
 </html>
