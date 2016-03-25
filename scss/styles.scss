@@ -1,0 +1,23 @@
+$blue : #2E4172;
+$red :  #ff6666;
+
+.box {
+  background: $blue;
+  padding: 40px 80px;
+  color: white;
+  .button {
+    background-color: $red;
+  }
+  input {
+    color: black;
+  }
+}
+
+.title {
+  text-decoration: underline;
+  padding-top: 20px;
+}
+
+.repo {
+  padding-top: 20px;
+}
